@@ -1,3 +1,8 @@
+body {
+    font-family: arial, sans-serif;
+    color: #222;
+}
+
 #logo {
     padding-top: 109px;
 }
@@ -41,4 +46,68 @@ input[type="text"] {
    margin-right: 15px;
    flex:100%;
    font-size: 16px;
+}
+
+ul {
+ list-style-type: none;   
+ margin: 0;
+ padding: 0;
+}
+
+#topnav {
+    padding-top: 15px;
+    font-size: 13px;;
+}
+
+#nav1 a {  
+ padding-left: 15px; 
+ color: #000;
+ opacity: 0.75;
+}
+
+#nav2 a {
+    padding-right: 15px;
+    color: #000;
+    opacity: 0.75;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+#nav1 {
+    float: left;
+}
+
+#nav2 {
+    float: right;
+}
+
+#fbar {
+    font-size: 14px;
+}
+
+.footerbar {
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 400px;
+}
+
+#fsr {
+    float: right;
+    margin-right: 30px;
+}
+
+#fsl {
+    float: left;
+    margin-left: 30px;
 }
